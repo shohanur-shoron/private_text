@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div id="message-form" style="display: flex;">
+            <textarea id="message" placeholder="Enter your message here..." oninput="checkInput(this)"></textarea>
+            <div id="wordCounter">Words: 0/300</div>
+            <label for="isPassword" class="passwordLabel"><input type="checkbox" name="isPassword" id="isPassword"> Protect this message with password</label>
+            <input type="password" id="password" placeholder="Enter password">
+            <button onclick="generateLink()">Send</button>
+            <p id="result"></p>
+        </div>
+        <div id="message-display" style="display: none;">
+            <input type="password" id="passwordBox" placeholder="Enter password">
+            <button id="passBtn">Enter</button>
+            <p id="message-text"></p>
+        </div>
+    </div>
+
+    <script src="js/wordCounter.js"></script>
+    <script src="js/passwordBox.js"></script>
+    <script src="js/sendMessage.js"></script>
+</body>
+</html>
