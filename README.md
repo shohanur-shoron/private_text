@@ -99,3 +99,6 @@ This project is great for learning and prototyping. It demonstrates:
 - Event handling
 - Use of `localStorage`
 - Basic string manipulation and validation
+
+This One-Time Message Generator is a fun, educational project showcasing modern web features. By trying the [live demo](https://shohanur-shoron.github.io/private_text/), you'll get a firsthand understanding of the user experience and the concepts behind it. Enjoy exploring and sharing your secret messages!
+
